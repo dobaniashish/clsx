@@ -1,11 +1,11 @@
-# clsx
+# clsx for PHP
 
 A PHP utility for constructing html attribute strings conditionally.
 
 > [!NOTE]
-> This package is for PHP. If you are looking for JavaScript/React.js, check out [lukeed/clsx](https://github.com/lukeed/clsx).
+> This package is for PHP. If you are looking for JavaScript/React.js, check out the original [lukeed/clsx](https://github.com/lukeed/clsx).
 
-This package was inspired by [lukeed/clsx](https://github.com/lukeed/clsx) to bring similar functionality to PHP with extra features.
+This package was inspired from [lukeed/clsx](https://github.com/lukeed/clsx) to bring similar functionality to PHP with extra features.
 
 ## Installation
 
@@ -21,7 +21,7 @@ This package provides three functions
 - `Clsx::value` - Generates attribute values string.
 - `Clsx::merge` - Merges two attributes array.
 
-### Function attrs()
+### Function `Clsx::attrs()`
 
 Returns generated full attributes string.
 
@@ -100,7 +100,7 @@ $button_attrs = [
 <button <?php echo Clsx::attrs($button_attrs); ?>>Click!</button>
 ```
 
-### Function value()
+### Function `Clsx::value()`
 
 Returns generated attribute value string.
 
@@ -137,7 +137,7 @@ $button_classes = Clsx::value([
 <button class="<?php echo $button_classes; ?>">Click!</button>
 ```
 
-### Function merge()
+### Function `Clsx::merge()`
 
 Returns merged attributes array.
 

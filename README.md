@@ -1,5 +1,7 @@
 # clsx for PHP
 
+[![](https://github.com/dobaniashish/clsx/workflows/PHPUnit/badge.svg)](https://github.com/dobaniashish/clsx/actions/workflows/phpunit.yml)
+
 A PHP utility for constructing html attribute strings conditionally.
 
 > [!NOTE]

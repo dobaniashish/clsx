@@ -1,6 +1,6 @@
 {
     "name": "dobaniashish/clsx",
-    "description": "A utility for constructing html attribute strings conditionally.",
+    "description": "A PHP utility for constructing html attribute strings conditionally.",
     "homepage": "https://github.com/dobaniashish/clsx",
     "license": "MIT",
     "authors": [

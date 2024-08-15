@@ -7,7 +7,7 @@ A PHP utility for constructing html attribute strings conditionally.
 > [!NOTE]
 > This package is for PHP. If you are looking for JavaScript/React.js, check out the original [lukeed/clsx](https://github.com/lukeed/clsx).
 
-This package was inspired from [lukeed/clsx](https://github.com/lukeed/clsx) to bring similar functionality to PHP with extra features.
+This package was inspired from [lukeed/clsx](https://github.com/lukeed/clsx) to bring similar functionality to PHP with an extra feature to merge all attributes in one function call.
 
 ## Installation
 
